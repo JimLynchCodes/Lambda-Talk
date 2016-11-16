@@ -4,3 +4,6 @@ protected/runtime/*
 !protected/runtime/.gitignore
 protected/data/*.db
 themes/classic/views/
+code-examples/echo-as-object/node_modules
+code-examples/echo-as-object/requester-with-secret-keys.js
+.idea/*

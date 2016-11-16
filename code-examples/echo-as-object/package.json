@@ -1,0 +1,14 @@
+{
+  "name": "echo-as-object",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lambda-function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jim Lynch",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "aws-sdk": "^2.7.2"
+  }
+}
