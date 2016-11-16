@@ -7,10 +7,10 @@ exports.handler = (event, context, callback) => {
   var endpointArn = "arn:aws:sns:us-west-2:954459734159:Jims_Tips";
 
   var payload = {
-    default: 'Hello World!',
+    default: 'Good Morning! It\'s time to wake up! :)',
       APNS: {
         aps: {
-          alert: 'Hello World',
+          alert: 'Good Morning!',
           sound: 'default',
           badge: 1
         }
