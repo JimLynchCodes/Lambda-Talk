@@ -5,7 +5,7 @@ exports.handler = (event, context, callback) => {
   let result = {};
 
   if (event.query === undefined) {
-    result.greeting = "Please tell me your name (via query string parameters)!"
+    result.greeting = "Please tell me your name (via the query string parameters firstName and lastName)!"
   }
   else {
     if (event.query.firstName === undefined) {
