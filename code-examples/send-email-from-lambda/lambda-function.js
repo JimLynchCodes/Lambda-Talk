@@ -10,19 +10,19 @@ exports.handler = function(event, context) {
 
     var eParams = {
         Destination: {
-            ToAddresses: ["jim@wisdomofjim.com"]
+            ToAddresses: ["jigglypuff@wisdomofjim.com"]
         },
         Message: {
             Body: {
                 Text: {
-                    Data: "A test from Shutterstock..."
+                    Data: "A test from Jimbo..."
                 }
             },
             Subject: {
                 Data: "Test Worked!"
             }
         },
-        Source: "mrdotjim@gmail.com"
+        Source: "pikachu@gmail.com"
     };
 
     console.log('===SENDING EMAIL===');
