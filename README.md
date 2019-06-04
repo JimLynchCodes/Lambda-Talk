@@ -1,5 +1,5 @@
 # Lambda Talk
-Code snippets that go along with the Lambda Talk
+Code snippets that go along with the Lambda talk.
 
 Meetup event page: https://www.meetup.com/nodejs/events/235104011/
 
